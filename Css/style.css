@@ -1,0 +1,339 @@
+body{
+    list-style: none;
+}
+.home{
+    background-image: url(pexels-abby-chung-1297938.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.text1{
+    font-family: 'Lora', serif;
+    font-weight: 900;
+    padding: 20%;
+}
+.a1{
+    font-weight: 400;
+    font-size: 60px;
+    padding: 12px 0px;
+}
+.a1::after{
+content: "|";
+font-size: 60px;
+font-weight: 400;
+animation-name:animation;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+}
+@keyframes animation {
+    0% {
+        content: "C|";
+    }
+    2% {
+        content: "Cr|";
+    }
+    4% {
+        content: "Cra|";
+    }
+    6% {
+        content: "Craf|";
+    }
+    8% {
+        content: "Craft|";
+    }
+    10% {
+        content: "Crafti|";
+    }
+    12% {
+        content: "Craftin|";
+    }
+    14% {
+        content: "Crafting|";
+    }
+    16% {
+        content: "Crafting M|";
+    }
+    18% {
+        content: "Crafting Ma|";
+    }
+    20% {
+        content: "Crafting Man.|";
+    }
+    22% {
+        content: "Crafting Ma|";
+    }
+    24% {
+        content: "Crafting M|";
+    }
+    26% {
+        content: "Crafting |";
+    }
+    28% {
+        content: "Craftin|";
+    }
+    30% {
+        content: "Crafti|";
+    }
+    32% {
+        content: "Craft|";
+    }
+    34% {
+        content: "Craf|";
+    }
+    36% {
+        content: "Cra|";
+    }
+    38% {
+        content: "Cr|";
+    }
+    40% {
+        content: "C|";
+    }
+    42% {
+        content: "|";
+    }
+    44% {
+        content: "D|";
+    }
+    46% {
+        content: "De|";
+    }
+    48% {
+        content: "Des|";
+    }
+    50% {
+        content: "Desi|";
+    }
+    52% {
+        content: "Desig|";
+    }
+    54% {
+        content: "Design|";
+    }
+    56% {
+        content: "Designe|";
+    }
+    58% {
+        content: "Designer.|";
+    }
+    60% {
+        content: "Designe|";
+    }
+    62% {
+        content: "Design|";
+    }
+    64% {
+        content: "Desig|";
+    }
+    66% {
+        content: "Desi|";
+    }
+    68% {
+        content: "Des|";
+    }
+    70% {
+        content: "De|";
+    }
+    72% {
+        content: "D|";
+    }
+    74% {
+        content: "|";
+    }
+    76% {
+        content: "T|";
+    }
+    78% {
+        content: "Ti |";
+    }
+    80% {
+        content: "Tia|";
+    }
+    82% {
+        content: "Tia D|";
+    }
+    84% {
+        content: "Tia Dav.|";
+    }
+    86% {
+        content: "Tia Dav.|";
+    }
+    88% {
+        content: "Tia Dav|";
+    }
+    90% {
+        content: "Tia Da|";
+    }
+    92% {
+        content: "Tia D|";
+    }
+    94% {
+        content: "Tia|";
+    }
+    96% {
+        content: "Ti|";
+    }
+    98% {
+        content: "T|";
+    }
+    100% {
+        content: "|";
+    }
+}
+.social{
+    font-size: 30px;
+}
+.about{
+    background-image: url(About.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer2{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text2{
+    padding: 5%;
+    font-family: 'Lora', serif;
+    width: 100%;
+}
+.head{
+   font-weight: 600;
+   font-size: 40px; 
+}
+.parag{
+    line-height: 0.5;
+    font-size: 20px;
+}
+.skills{
+    padding: 5%;
+    
+}
+li{
+    padding: 10px;
+}
+.bar{
+    background: rgba(0, 0, 0, 0.4);
+    display: block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+}
+.bar span{
+    height: 20px;
+    position: absolute;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+    border-radius: 10px;
+}
+.DIY{
+    width: 100%;
+    animation-name: DIY;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.Handmade{
+    width: 90%;
+    animation-name:Handmade ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.Arts{
+    width: 95%;
+    animation-name: Arts;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes DIY {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes Handmade {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Arts {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.Portfolio{
+    background-image: url(portfolio.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer3{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text3{
+    padding: 3%;
+    font-family: 'Lora', serif;
+    width: 100%;
+}
+.top{
+    font-weight: 900;
+    font-size: 70px;
+}
+.nav{
+    margin-left: 40%;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    margin-left: 35%;
+}
+.col-md-4{
+    width: 25%;
+    flex: 0 0 auto;
+}
+.contact{
+    background-image: url(Contactus.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer4{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text4{
+    font-family: 'Lora', serif;
+    padding: 5%;
+    
+}
+.cu{
+  font-weight: 700;
+  font-size: 40px;
+}
+.icon{
+    padding: 5%;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.o{
+    left: 20px;
+}
+.n{
+ margin-left: 5%;
+}
+.e{
+    margin-left: 5%;
+}
+.g{
+    color: lawngreen;
+    font-size: 40px;
+    font-weight: 900;
+}
